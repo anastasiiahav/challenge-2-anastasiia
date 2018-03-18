@@ -1,0 +1,129 @@
+/* Algemeen */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #FFFFFF;
+	font-family: Montserrat;
+	text-align: center;
+}
+
+/* Main container */
+.main {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	height: 600px;
+}
+
+/* Tekst */
+.numbers {
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+p#time {
+	font-size: 23px;
+}
+
+.earth {
+	display: flex;
+	flex-flow: column-reverse;
+}
+
+/* S */
+@media only screen and (min-width: 600px) {
+	/* Main container */
+	.main {
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
+	/* Tekst */
+	.numbers {
+		font-size: 60px;
+		margin-top: 20px;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	p#time {
+		font-size: 27px;
+	}
+
+	.earth {
+		display: flex;
+		flex-flow: column;
+	}
+}
+
+/* M */
+@media only screen and (min-width: 900px) {
+	/* Main container */
+	.main {
+		margin-top: 52px;
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+
+	/* Tekst */
+	.numbers {
+		font-size: 70px;
+		margin-top: 20px;
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+
+	p#time {
+		font-size: 27px;
+		font-style: italic;
+	}
+
+	.earth {
+		display: flex;
+		flex-flow: column;
+	}
+}
+
+/* L */
+@media only screen and (min-width: 1200px) {
+	/* Main container */
+	.main {
+		margin-top: 100px;
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+
+	/* Tekst */
+	.numbers {
+		font-size: 80px;
+		margin-top: 20px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	p#time {
+		font-size: 35px;
+		font-style: italic;
+	}
+
+	.earth {
+		display: flex;
+		flex-flow: column;
+}
