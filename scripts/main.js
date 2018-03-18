@@ -5,7 +5,7 @@ var timeline = new TimelineMax({repeat : -1});
 function updateClock(){
 	var currentTime = new Date();
 
-	document.getElementById('clock').innerHTML = currentTime.toTimeString();
+	document.getElementById('clock').innerHTML = currentTime.toLocaleTimeString();
 	
 
 	//Lichtblauw achtergrond en tekst 'Its day on Earth' als het minder dan 18:00 is
